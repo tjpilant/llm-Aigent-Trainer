@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-Aigent-Trainer"
+version = "0.1.0"
+description = "A project for fine-tuning and training AI models using OpenAI and MLflow, with support for Markdown input"
+authors = ["tjpilant <tpilant@imunlmtd.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.3.0"
+python-dotenv = "^1.0.0"
+mlflow = "^2.8.0"
+requests = "^2.31.0"
+tqdm = "^4.66.0"
+markdown = "^3.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
