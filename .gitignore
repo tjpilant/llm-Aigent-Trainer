@@ -1,0 +1,9 @@
+# Ignore specific files
+.env
+test.md
+freeperson031.md
+wandb_example.py
+
+# Ignore folders
+wandb/
+mlruns/
